@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Four buttons that extend the length of the screen -->
+    <Button
+        android:id="@+id/button_writeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_txt_file" />
+
+    <Button
+        android:id="@+id/button_writeJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_json_file" />
+
+    <Button
+        android:id="@+id/button_writeHtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_html_file" />
+
+    <Button
+        android:id="@+id/button_writeJs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_js_file" />
+
+    <!-- Label for the output TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output_label"
+        android:textStyle="bold" />
+
+    <!-- Readonly text view to display around 8 lines of text -->
+    <TextView
+        android:id="@+id/textview_readonly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="none"
+        android:scrollbars="vertical"
+        android:padding="8dp" />
+
+    <!-- Two buttons side by side that extend the length of the screen and are anchored to the bottom -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_read_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="@string/read_all" />
+
+        <Button
+            android:id="@+id/button_delete_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="@string/delete_all" />
+
+    </LinearLayout>
+
+</LinearLayout>

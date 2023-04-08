@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Android_11_Write_File_To_Device_Storage</string>
+  <string name="action_settings">Settings</string>
+  <string name="write_txt_file">Write txt File to Device Storage</string>
+  <string name="write_json_file">Write JSON File to Device Storage</string>
+  <string name="write_html_file">Write HTML File to Device Storage</string>
+  <string name="write_js_file">Write JS File to Device Storage</string>
+  <string name="output_label">Output:</string>
+  <string name="read_all">Read All</string>
+  <string name="delete_all">Delete All</string>
+</resources>
